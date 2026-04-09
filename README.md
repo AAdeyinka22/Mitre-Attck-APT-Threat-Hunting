@@ -25,13 +25,18 @@ Open-source Intelligence (OSINT)
 This project conducts a structured threat hunt targeting advanced and financially motivated threat actors identified via intelligence platforms, including:
 
 FIN7
+
 Electrum
+
 DarkHotel
+
 GhostSec
+
 SideCopy
+
 Predatory Sparrow
 
-The objective is to:
+#The objective is to:
 
 Identify Tactics, Techniques, and Procedures (TTPs) relevant to rail infrastructure
 Map adversary behavior to the MITRE ATT&CK framework

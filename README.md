@@ -184,6 +184,7 @@ Common attacker patterns:
 
 *(Add your screenshots here — recommended for recruiters)*
 
+![App Screenshot](images/screenshot.png)
 * Threat Intelligence Dashboard (SOCRadar)
 * MITRE ATT&CK Navigator Layers
 * Technique Mapping Views

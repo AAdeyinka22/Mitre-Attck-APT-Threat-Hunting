@@ -1,209 +1,227 @@
-# APT Threat Hunting in the UK Rail Transportation Sector Using Intelligence Platforms & MITRE ATT&CK
 
-# Project Information
 
-Author: Martins Adeyanju
+# 🚨 APT Threat Hunting in UK Rail Transportation
 
-Type: Threat Intelligence & Threat Hunting
+### MITRE ATT&CK | Threat Intelligence | Detection Engineering
 
-Target Country: United Kingdom
+---
 
-Sector Focus: Rail Transportation / Critical Infrastructure
+## 📌 Overview
 
-Framework: MITRE ATT&CK Enterprise
+This project presents a **structured threat hunting exercise** focused on **Advanced Persistent Threat (APT) groups** and their potential impact on the **United Kingdom rail transportation sector**.
 
-Tools Used:
+Using real-world threat intelligence and the **MITRE ATT&CK framework**, the project identifies adversary behaviors, maps Tactics, Techniques, and Procedures (TTPs), and translates them into **actionable detection strategies**.
 
-MITRE ATT&CK Navigator
+---
 
-SOCRadar (Threat Actor Intelligence Dashboard)
+## 👤 Author
 
-Open-source Intelligence (OSINT)
+**Martins Adeyanju**
+Threat Intelligence & SOC Analyst
 
-# Objective
+---
 
-This project conducts a structured threat hunt targeting advanced and financially motivated threat actors identified via intelligence platforms, including:
+## 🎯 Objectives
 
-FIN7
+* Identify threat actors relevant to **UK rail infrastructure**
+* Map adversary behaviors to **MITRE ATT&CK Enterprise**
+* Analyze **malware, CVEs, and attack patterns**
+* Develop **threat hunting hypotheses**
+* Provide **defensive recommendations for critical infrastructure**
 
-Electrum
+---
 
-DarkHotel
+## 🌍 Scope
 
-GhostSec
+| Category       | Details                                             |
+| -------------- | --------------------------------------------------- |
+| Target Country | United Kingdom 🇬🇧                                 |
+| Sector         | Rail Transportation / Critical Infrastructure       |
+| Threat Focus   | Disruption, Espionage, Credential Theft, Ransomware |
+| Framework      | MITRE ATT&CK Enterprise                             |
 
-SideCopy
+---
 
-Predatory Sparrow
+## 🧠 Threat Actors Analyzed
 
-# The objective is to:
+* **FIN7** – Financial cybercrime, ransomware, credential theft
+* **Electrum** – ICS/OT attacks, destructive malware
+* **DarkHotel** – Spear phishing, executive targeting
+* **GhostSec** – Hacktivism, disruption campaigns
+* **SideCopy** – Espionage-focused operations
+* **Predatory Sparrow** – Infrastructure disruption
 
-Identify Tactics, Techniques, and Procedures (TTPs) relevant to rail infrastructure
-Map adversary behavior to the MITRE ATT&CK framework
-Analyze malware usage, CVEs, and targeting patterns
-Develop actionable detection strategies for UK rail operators
-# Scope
-Geography: United Kingdom
-Sector: Rail Transportation (Critical National Infrastructure)
-Threat Focus:
-Service disruption
-Ransomware and extortion
-Credential compromise
-Operational Technology (OT) interference
+---
 
-# Threat Actors Analyzed (From Intelligence Dashboard)
-# FIN7
-Rank: 21
-Financially motivated cybercrime group with advanced tooling
-Known to target organizations with high operational dependency, including transport
+## 🛠️ Tools & Resources
 
-# Associated malware:
+* **MITRE ATT&CK Navigator** – TTP mapping & visualization
+* **SOCRadar** – Threat intelligence platform
+* **OSINT Sources** – CVEs, malware intelligence, sector reports
 
-Carbanak
-Mimikatz
-PowerPlant
-REvil-linked tooling
+---
 
-# Relevance to Rail:
+## 🔬 Methodology
 
-Credential theft for lateral movement into operational systems
-Ransomware deployment targeting service disruption
-# Electrum
-Rank: 39
-Linked to critical infrastructure attacks, including ICS/OT environments
+This project follows a **real-world threat hunting workflow**:
 
-# Associated malware:
+### 1️⃣ Threat Intelligence Collection
 
-GreyEnergy
-KillDisk
-TeleDoor
-Exaramel
+* Identified threat actors using intelligence platforms
+* Extracted:
 
-# Relevance to Rail:
+  * Malware families
+  * CVEs
+  * Target sectors and regions
 
-Potential disruption of rail control systems
-Destructive attacks affecting availability of services
-🔹 DarkHotel
-Rank: 48
-Targets executives and high-value individuals
+---
 
-# Relevance to Rail:
+### 2️⃣ MITRE ATT&CK Mapping
 
-Targeting senior rail executives for:
-Credential harvesting
-Strategic intelligence gathering
-# GhostSec
-Rank: 141
-Hacktivist group
+Mapped adversary techniques including:
 
-# Relevance to Rail:
+* `T1133` – External Remote Services
+* `T1071.001` – Web Protocols
+* `T1543` – Create or Modify System Process
+* `T1005` – Data from Local System
+* `T1550` – Use Alternate Authentication Material
+* `T1583.003` – Virtual Private Server
 
-Disruption campaigns
-Public data leaks
-Website defacement of transport services
-# SideCopy
-Rank: 148
-Known for espionage operations
+---
 
-# Relevance to Rail:
+### 3️⃣ Hypothesis-Driven Hunting
 
-Targeting sensitive transport infrastructure data
-# Predatory Sparrow
-Rank: 157
-Conducts disruptive cyber operations
+Example:
 
-# Relevance to Rail:
+> If FIN7 is active in a UK rail environment, anomalous credential access and suspicious remote connections should be observable.
 
-Potential targeting of critical infrastructure for geopolitical impact
-# Methodology
-# 1. Threat Intelligence Collection
+---
 
-Threat actors were identified using intelligence dashboards, extracting:
+### 4️⃣ Malware & CVE Analysis
 
-Target countries (including UK relevance)
-Sector targeting patterns (transport & infrastructure)
-Malware associations
-CVEs
-ATT&CK techniques
+**Observed Malware:**
 
-# 2. MITRE ATT&CK Mapping
+* Mimikatz
+* Carbanak
+* KillDisk
+* GreyEnergy
+* PlugX variants
 
-Key techniques identified from your dataset:
+**Sample CVEs:**
 
-T1133 – External Remote Services
-T1071.001 – Web Protocols
-T1543 – Create or Modify System Process
-T1005 – Data from Local System
-T1550 – Use Alternate Authentication Material
-T1583.003 – Virtual Private Server
+* CVE-2025-42957
+* CVE-2025-8088
+* CVE-2024-40711
+* CVE-2024-3806
 
-These techniques were mapped in MITRE ATT&CK Navigator to simulate attacker behavior in rail environments.
+---
 
-# 3. Hypothesis-Driven Hunting
+### 5️⃣ Behavioral Analysis
 
-Example hypothesis:
+Common attacker patterns:
 
-“If FIN7 or similar actors are present in a UK rail network, anomalous credential access and suspicious remote connections should be observable.”
+* Exploitation of public-facing systems
+* Credential dumping & reuse
+* Living-off-the-land techniques (LOLBins)
+* Command & Control via web protocols
 
-# 4. Malware & CVE Correlation
+---
 
-Observed malware trends:
+## 📊 Key Findings
 
-Credential theft tools (Mimikatz)
-Destructive malware (KillDisk)
-Backdoors and persistence tools
+### 🔥 Shared Techniques
 
-Example CVEs:
+* Remote access exploitation (`T1133`)
+* Credential abuse (`T1550`, `T1003`)
+* Web-based C2 (`T1071.001`)
+* Persistence via process manipulation (`T1543`)
 
-CVE-2025-42957
-CVE-2025-8088
-CVE-2024-40711
-CVE-2024-3806
+---
 
-👉 These vulnerabilities may affect systems used in rail IT/OT environments if unpatched.
+### 🚆 Rail Sector Risks
 
-# 5. Behavioral Analysis
+* High dependency on **real-time systems**
+* IT/OT convergence increases attack surface
+* Disruption can impact **public safety and national operations**
 
-Common attack patterns across actors:
+---
 
-Exploitation of public-facing infrastructure systems
-Use of living-off-the-land techniques (LOLBins)
-Credential dumping and privilege escalation
-Command & Control via web protocols and proxy infrastructure
+### ⚠️ Detection Gaps
 
-# Key Findings
-# Shared Techniques Across Actors
-Remote access exploitation (T1133)
-Credential theft and reuse (T1003 / T1550)
-Web-based command & control (T1071.001)
-Process manipulation for persistence (T1543)
+* Limited monitoring of remote services
+* Weak credential activity visibility
+* Lack of OT-focused detection
+* Insufficient behavioral analytics
 
-# Rail Sector Risk Insight
+---
 
-Rail systems are high-value targets due to:
+## 🛡️ Recommendations
 
-Dependence on real-time operational systems
-Integration of IT and OT environments
-Potential for mass disruption and safety impact
+* Monitor remote access (VPN, RDP, external services)
+* Detect credential dumping and abnormal authentication
+* Enable process monitoring (Event ID 4688 / Sysmon ID 1)
+* Segment IT and OT environments
+* Deploy EDR/XDR with behavioral detection
+* Conduct regular ATT&CK-based threat hunts
 
-# Detection Gaps Identified
-Limited monitoring of remote access services
-Weak visibility into OT environments
-Insufficient alerting on credential misuse
-Lack of behavioral detection for lateral movement
+---
 
-# Recommendations for UK Rail Defenders
-Monitor:
-Remote access activity (VPN, RDP, external services)
-PowerShell and scripting usage
-Detect:
-Credential dumping behavior
-Abnormal process creation (Event ID 4688 / Sysmon 1)
-Harden:
-Public-facing infrastructure systems
-Identity and access management controls
-Implement:
-EDR/XDR with behavioral analytics
-Network segmentation between IT and OT
-Conduct:
-Regular ATT&CK-based threat hunting exercises
+## 🧪 How to Replicate
+
+1. Go to [https://attack.mitre.org/groups](https://attack.mitre.org/groups)
+2. Research selected threat actors
+3. Open [https://mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator)
+4. Create a new **Enterprise layer**
+5. Map techniques per actor
+6. Assign colors per group
+7. Overlay layers for comparison
+8. Document findings
+
+---
+
+## 📸 Screenshots
+
+*(Add your screenshots here — recommended for recruiters)*
+
+* Threat Intelligence Dashboard (SOCRadar)
+* MITRE ATT&CK Navigator Layers
+* Technique Mapping Views
+* Comparative Analysis
+
+---
+
+## 💡 Key Takeaway
+
+This project demonstrates how to translate:
+
+**Threat Intelligence → ATT&CK Mapping → Detection Engineering**
+
+into a **practical threat hunting workflow** applicable to real-world **critical infrastructure environments**.
+
+---
+
+## 🔗 References
+
+* MITRE ATT&CK – [https://attack.mitre.org](https://attack.mitre.org)
+* MITRE ATT&CK Navigator – [https://mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator)
+* SOCRadar – [https://socradar.io](https://socradar.io)
+
+---
+
+## ⭐ If you found this useful
+
+Give it a ⭐ and connect with me — always open to collaboration in:
+
+* Threat Hunting
+* Detection Engineering
+* SOC Operations
+
+---
+
+If you want next-level polish, I can:
+
+* Add **badges + visuals (very recruiter-friendly)**
+* Create a **GitHub repo structure (folders, naming, files)**
+* Or turn this into a **portfolio website project**
+
+Just say 👍

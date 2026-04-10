@@ -184,7 +184,17 @@ Common attacker patterns:
 
 *(Add your screenshots here — recommended for recruiters)*
 
-* Threat Intelligence Dashboard (SOCRadar)
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/899a693e18c8e0acb268eb988a017218f329a805/DarkHotel1.jpg)
+
+![App Screenshot](images/screenshot.png)
+
+![App Screenshot](images/screenshot.png)
+
+![App Screenshot](images/screenshot.png)
+
+![App Screenshot](images/screenshot.png)
+
+![App Screenshot](images/screenshot.png)
 * MITRE ATT&CK Navigator Layers
 * Technique Mapping Views
 * Comparative Analysis

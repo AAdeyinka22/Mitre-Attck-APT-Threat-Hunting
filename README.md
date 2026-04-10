@@ -211,3 +211,5 @@ into a **practical threat hunting workflow** applicable to real-world **critical
 * MITRE ATT&CK Navigator – [https://mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator)
 * SOCRadar – [https://socradar.io](https://socradar.io)
 
+* This project was developed during a cybersecurity mentorship program and highlights my ability to apply threat intelligence and MITRE ATT&CK methodologies to real-world security challenges.
+

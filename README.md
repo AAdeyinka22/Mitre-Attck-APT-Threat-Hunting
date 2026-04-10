@@ -1,8 +1,4 @@
-You’re thinking exactly like someone building a strong cybersecurity portfolio — this is what actually gets recruiters’ attention.
 
-Here’s a **clean, professional GitHub README** you can drop straight into your repo 👇
-
----
 
 # 🚨 APT Threat Hunting in UK Rail Transportation
 
@@ -21,7 +17,8 @@ Using real-world threat intelligence and the **MITRE ATT&CK framework**, the pro
 ## 👤 Author
 
 **Martins Adeyanju**
-Threat Intelligence & SOC Analyst
+
+Cybersecurity Analyst
 
 ---
 

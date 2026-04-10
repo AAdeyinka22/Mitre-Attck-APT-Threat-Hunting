@@ -186,18 +186,18 @@ Common attacker patterns:
 
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/899a693e18c8e0acb268eb988a017218f329a805/DarkHotel1.jpg)
 
-![App Screenshot](images/screenshot.png)
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/baeabfd7f0f7079c1f241547eb73f484b7ae1755/Electrum%20R39.jpg)
 
-![App Screenshot](images/screenshot.png)
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/baeabfd7f0f7079c1f241547eb73f484b7ae1755/FIN7%20R21.jpg)
 
-![App Screenshot](images/screenshot.png)
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/baeabfd7f0f7079c1f241547eb73f484b7ae1755/GhostSec%20R141.jpg)
 
-![App Screenshot](images/screenshot.png)
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/baeabfd7f0f7079c1f241547eb73f484b7ae1755/Predatory%20Sparrow%20R157.jpg)
 
-![App Screenshot](images/screenshot.png)
-* MITRE ATT&CK Navigator Layers
-* Technique Mapping Views
-* Comparative Analysis
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/baeabfd7f0f7079c1f241547eb73f484b7ae1755/SideCopy%20R147.jpg)
+
+ ![App Screenshot](images/screenshot.png)
+
 
 ---
 

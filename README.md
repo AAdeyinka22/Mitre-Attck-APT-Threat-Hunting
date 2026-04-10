@@ -189,9 +189,7 @@ Common attacker patterns:
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/SideCopy.jpg)
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/Predatory%20Sparrow.jpg)
 
-* MITRE ATT&CK Navigator Layers
-* Technique Mapping Views
-* Comparative Analysis
+![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/Layer%20overlap%20by%20operation.jpg)
 
 ---
 

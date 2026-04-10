@@ -1,6 +1,6 @@
 
 
-# 🚨 APT Threat Hunting in UK Rail Transportation
+# 🚨 APT Threat Hunting in Rail Transportation
 
 ### MITRE ATT&CK | Threat Intelligence | Detection Engineering
 
@@ -8,7 +8,7 @@
 
 ## 📌 Overview
 
-This project presents a **structured threat hunting exercise** focused on **Advanced Persistent Threat (APT) groups** and their potential impact on the **United Kingdom rail transportation sector**.
+This project presents a **structured threat hunting exercise** focused on **Advanced Persistent Threat (APT) groups** and their potential impact on the **rail transportation sector**.
 
 Using real-world threat intelligence and the **MITRE ATT&CK framework**, the project identifies adversary behaviors, maps Tactics, Techniques, and Procedures (TTPs), and translates them into **actionable detection strategies**.
 
@@ -24,7 +24,7 @@ Cybersecurity Analyst
 
 ## 🎯 Objectives
 
-* Identify threat actors relevant to **UK rail infrastructure**
+* Identify threat actors relevant to **rail infrastructure**
 * Map adversary behaviors to **MITRE ATT&CK Enterprise**
 * Analyze **malware, CVEs, and attack patterns**
 * Develop **threat hunting hypotheses**
@@ -94,7 +94,7 @@ Mapped adversary techniques including:
 
 Example:
 
-> If FIN7 is active in a UK rail environment, anomalous credential access and suspicious remote connections should be observable.
+> If FIN7 is active in a rail environment, anomalous credential access and suspicious remote connections should be observable.
 
 ---
 
@@ -182,15 +182,13 @@ Common attacker patterns:
 
 ## 📸 Screenshots
 
-*(Add your screenshots here — recommended for recruiters)*
-
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/FIN7.jpg)
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/Electrum.jpg)
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/DarkHotel.jpg)
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/GhostSec.jpg)
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/SideCopy.jpg)
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/main/Predatory%20Sparrow.jpg)
-* Threat Intelligence Dashboard (SOCRadar)
+
 * MITRE ATT&CK Navigator Layers
 * Technique Mapping Views
 * Comparative Analysis
@@ -213,22 +211,3 @@ into a **practical threat hunting workflow** applicable to real-world **critical
 * MITRE ATT&CK Navigator – [https://mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator)
 * SOCRadar – [https://socradar.io](https://socradar.io)
 
----
-
-## ⭐ If you found this useful
-
-Give it a ⭐ and connect with me — always open to collaboration in:
-
-* Threat Hunting
-* Detection Engineering
-* SOC Operations
-
----
-
-If you want next-level polish, I can:
-
-* Add **badges + visuals (very recruiter-friendly)**
-* Create a **GitHub repo structure (folders, naming, files)**
-* Or turn this into a **portfolio website project**
-
-Just say 👍

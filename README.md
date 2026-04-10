@@ -167,22 +167,9 @@ Common attacker patterns:
 
 ---
 
-## 🧪 How to Replicate
-
-1. Go to [https://attack.mitre.org/groups](https://attack.mitre.org/groups)
-2. Research selected threat actors
-3. Open [https://mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator)
-4. Create a new **Enterprise layer**
-5. Map techniques per actor
-6. Assign colors per group
-7. Overlay layers for comparison
-8. Document findings
-
----
-
 ## 📸 Screenshots
 
-*(Add your screenshots here — recommended for recruiters)*
+
 
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/899a693e18c8e0acb268eb988a017218f329a805/DarkHotel1.jpg)
 
@@ -196,7 +183,7 @@ Common attacker patterns:
 
 ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/baeabfd7f0f7079c1f241547eb73f484b7ae1755/SideCopy%20R147.jpg)
 
- ![App Screenshot](images/screenshot.png)
+ ![App Screenshot](https://github.com/AAdeyinka22/Mitre-Attck-APT-Threat-Hunting/blob/f05fb574e5081fa236f04287a879ee294aae2ce9/Layer%20overlap%20by%20operation.jpg))
 
 
 ---
